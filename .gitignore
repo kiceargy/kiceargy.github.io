@@ -1,1 +1,1 @@
-git rm --cached /path/to/file
+git rm --cached index.html
