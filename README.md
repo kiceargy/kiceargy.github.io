@@ -1,2 +1,2 @@
-# kiceargy.github.io
-Хостинг сайта.
+# htmlacademy.github.io
+Мой первый хостинг
