@@ -36,9 +36,9 @@ div{
    background-color: #fff; /* Цвет фона веб-страницы */
 height: 500px;
 weight: 0 auto;
-
-    /*top: 50%;
-    left: 50%;
+text-align: center;
+    top: 300px;
+   /* left: 50%;
     width: 50%;
     height: 50%;*/
    } 
