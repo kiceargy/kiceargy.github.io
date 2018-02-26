@@ -32,16 +32,16 @@ main {
 
   text-align: center;
 }
-div{
+.paddinginfo{
+ padding: 30px 30px 130px 30px;
+   } 
+.pageinfo{
    background-color: #fff; /* Цвет фона веб-страницы */
 height: 500px;
 weight: 0 auto;
 text-align: center;
     margin-top: 100px;
   padding: 30px 30px 130px 30px;
-   /* left: 50%;
-    width: 50%;
-    height: 50%;*/
    } 
 h1 {
   color: #000000;
