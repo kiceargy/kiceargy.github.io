@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>MixDev Инструкции.</title>
+    <link rel="stylesheet" href="css/stylepage.css">
+  </head>
+
+  <body>
+      <div class="paddinginfo">
+       <a href="https://kiceargy.github.io">
+        <img src="img/logotip.png" alt="MIXDEV OFFICIAL SITE">
+      </a>
+      <div class="pageinfo">
+        <p>Здесь должен быть текст. 
+        </p>
+      </div>
+    </div>
+  </body>
+  © 2018-2018 MixDev.
+</html>
