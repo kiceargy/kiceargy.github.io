@@ -34,7 +34,7 @@ main {
 }
 div{
    background-color: #fff; /* Цвет фона веб-страницы */
-height: 500px auto;
+height: 500px;
 weight: 0 auto;
 
     /*top: 50%;
