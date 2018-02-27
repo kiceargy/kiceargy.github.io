@@ -60,8 +60,8 @@ a:link, a:visited {
   text-decoration: underline
 }
 
-.spoiler-wrap{background:#fff;margin: 0 0 8px;border:1px solid #efefef}
-.spoiler-head{background:#efefef;cursor:pointer;padding:5px;}
+.spoiler-wrap{background:#fff;margin: 0 0 8px;border:1px solid #310062}
+.spoiler-head{background:#310062;cursor:pointer;padding:5px;}
 .spoiler-body{padding:10px}
 .spoiler-wrap.disabled .spoiler-body{display:none}
 .spoiler-wrap.active{border-color:#57AA43}
