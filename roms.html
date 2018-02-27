@@ -4,6 +4,14 @@
     <meta charset="utf-8">
     <title>MixDev Информация.</title>
     <link rel="stylesheet" href="css/stylepage.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script>
+jQuery(document).ready(function(){
+	jQuery('.spoiler-head').click(function(){
+		$(this).parents('.spoiler-wrap').toggleClass("active").find('.spoiler-body').slideToggle();
+	})
+})
+</script>
   </head>
 
   <body>
@@ -15,11 +23,12 @@
         <p> Поддерживаемые устройства:
           <a href="https://kiceargy.github.io/roms/lenovo/vibeb">Lenovo Vibe B (A2016)</a>
           <a href="https://kiceargy.github.io/roms/samsung/j500">Samsung Galaxy J5 (2015)</a>
-          <details open>  <!-- Для того, чтобы элемент был видимым изначально, следует добавить атрибут open -->
-    <summary>Посмотреть код</summary>
-    <pre>исчезающая информация</pre>
-    <p>исчезающий текст
-</details>
+     
+          <div class="spoiler-wrap disabled">
+  <div class="spoiler-head">Заголовок</div>
+  <div class="spoiler-body">Текст</div>
+</div>
+          
         </p>
       </div>
     </div>
