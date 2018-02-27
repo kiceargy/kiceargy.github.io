@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>MixDev Информация.</title>
+    <link rel="stylesheet" href="css/stylepage.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script>
+jQuery(document).ready(function(){
+	jQuery('.spoiler-head').click(function(){
+		$(this).parents('.spoiler-wrap').toggleClass("active").find('.spoiler-body').slideToggle();
+	})
+})
+</script>
+  </head>
+
+  <body>
+      <div class="paddinginfo">
+       <a href="https://kiceargy.github.io">
+        <img src="img/logotip.png" alt="MIXDEV OFFICIAL SITE">
+      </a>
+      <div class="pageinfo">
+        <p> Поддерживаемые устройства:
+<h3>Lenovo Vibe B (A2016a40)</h3>
+<img src="https://justforsale.pk/image/cache/catalog/Lenovo_Vibe_B-750x750.jpg" alt="Lenovo Vibe B (A2016) [Black]">
+          <div class="spoiler-wrap disabled">
+  <div class="spoiler-head">Прошивки на базе Android 7.x</div>
+  <div class="spoiler-body"></div>
+</div>
+   <div class="spoiler-wrap disabled">
+  <div class="spoiler-head">Прошивки на базе Android 6.x</div>
+  <div class="spoiler-body">Текст</div>
+</div>
+   <div class="spoiler-wrap disabled">
+  <div class="spoiler-head">Recovery / Custom Kernels</div>
+  <div class="spoiler-body"><b>TeamWin Recovery Project (TWRP)</b></div>
+</div>
+          
+        </p>
+      </div>
+    </div>
+  </body>
+  © 2018-2018 MixDev.
+</html>
