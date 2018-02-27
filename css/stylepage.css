@@ -60,23 +60,12 @@ a:link, a:visited {
   text-decoration: underline
 }
 
-.details summary { /* строки-заголовок для клика */
-  position: relative;
-  background: #4e6473;
-  padding: 2px 10px;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-}
-.details summary::-webkit-details-marker { /* треугольник */
-   position: absolute;
-   right: 10px;
-   top: 30%;
-}
-.details[open] summary { /* цвет строки-заголовка в открытом виде */
-  background: #c0c0c0;
-}
-
+.spoiler-wrap{background:#fff;margin: 0 0 8px;border:1px solid #efefef}
+.spoiler-head{background:#efefef;cursor:pointer;padding:5px;}
+.spoiler-body{padding:10px}
+.spoiler-wrap.disabled .spoiler-body{display:none}
+.spoiler-wrap.active{border-color:#57AA43}
+.spoiler-wrap.active .spoiler-head{background:#57AA43;color:#fff}
 
 a:hover {
   text-decoration: none
