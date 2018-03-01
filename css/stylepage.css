@@ -67,7 +67,7 @@ a:link, a:visited {
 
 .spoiler-wrap{background:#fff;margin: 0 0 8px;border:1px solid #310062}
 .spoiler-head{background:#310062;cursor:pointer;padding:5px;}
-.spoiler-body{padding:10px}
+.spoiler-body{color: #000000;padding:10px}
 .spoiler-wrap.disabled .spoiler-body{display:none}
 .spoiler-wrap.active{border-color:#57AA43}
 .spoiler-wrap.active .spoiler-head{background:#57AA43;color:#fff}
