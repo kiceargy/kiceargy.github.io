@@ -33,10 +33,13 @@ main {
   text-align: center;
 }
 
-.circular--square {
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
   border-radius: 50%;
-  width: 128px;
-  height: 128px;
 }
 
 h1 {
