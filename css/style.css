@@ -8,21 +8,7 @@ body {
   color: #ffffff;
   
   
-  background-color: #a30101 ;
-  background-image:
-    repeating-linear-gradient(
-      150deg,
-      rgba(163, 1, 1, 0.06),
-      rgba(163, 1, 1, 0.06) 1px,
-      transparent 0,
-      transparent 41px),
-    repeating-linear-gradient(
-      -150deg,
-      rgba(163, 1, 1, 0.06),
-      rgba(163, 1, 1, 0.06) 1px,
-      transparent 0,
-      transparent 41px);
-
+  background-color: #ffffff;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
