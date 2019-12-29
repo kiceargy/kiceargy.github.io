@@ -35,6 +35,8 @@ main {
 
 .circular--square {
   border-radius: 50%;
+  width: 128px;
+  height: 128px;
 }
 
 h1 {
